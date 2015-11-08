@@ -8,8 +8,8 @@
 module unittest_preprocessor;
 
 import std.typecons;
-import dparse.ast;
-import dparse.lexer;
+import std.d.ast;
+import std.d.lexer;
 
 /**
  * $(UL $(LI First field: the byte index of the opening brace of the unittest)
